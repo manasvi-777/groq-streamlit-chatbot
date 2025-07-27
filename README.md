@@ -99,7 +99,7 @@ Once the app is running, try asking:
 
 - **Calculator:** "What is 10 + 5 \* 2?"
 - **Currency Converter:** "Convert 100 USD to INR."
-- **Weather Forecaster:** "What's the weather like in London?"
+- **Weather Forecaster:** "What's the weather like in Delhi?"
 - **RAG (Movie Info):** "Who directed The Matrix?"
 - **General Chat:** "Tell me a joke."
 
@@ -152,20 +152,6 @@ Specifies files and folders that Git should ignore (e.g., `.env`).
 **`requirements.txt`**  
 Lists all the Python packages required to run the project.
 
-
-## ☁️ Deployment on Streamlit Community Cloud
-
-1.  **GitHub Repository:** Ensure your project is pushed to a public GitHub repository. (If you followed the local setup, you'll do this in the next step).
-2.  **Streamlit Cloud Secrets:** Instead of a `.env` file, Streamlit Community Cloud uses "Secrets" for environment variables.
-    - Go to [share.streamlit.io](https://share.streamlit.io/).
-    - Select your app, then navigate to "Settings" > "Secrets".
-    - Add each API key as a new secret, e.g.:
-      ```
-      GROQ_API_KEY="YOUR_GROQ_API_KEY"
-      FXRATESAPI_API_KEY="YOUR_FXRATESAPI_API_KEY"
-      OPENWEATHERMAP_API_KEY="YOUR_OPENWEATHERMAP_API_KEY" # Or WEATHERAPI_API_KEY
-      ```
-3.  **Deploy:** From the Streamlit Community Cloud dashboard, select "New app," point it to your GitHub repository and `main.py` file, and deploy.
 
 ## 🚀 Future Improvements
 
