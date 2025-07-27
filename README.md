@@ -119,7 +119,7 @@ _Performing a mathematical calculation._
 
 ### RAG Query Example
 ![RAG system answering a question about Inception](images/rag(laufey).png)
-_Demonstrating retrieval augmented generation from the movie knowledge base._
+_Demonstrating retrieval augmented generation from the txt file uploaded._
 ### 📁 Project Folder Structure
 
 **`main.py`**  
