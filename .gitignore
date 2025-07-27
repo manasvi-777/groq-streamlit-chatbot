@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.env                # Ignore the .env file containing API keys
+.vscode/             # VS Code settings 
+# Streamlit
+.streamlit/local_configs.toml  # Local Streamlit config cache
