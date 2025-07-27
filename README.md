@@ -105,6 +105,21 @@ Once the app is running, try asking:
 
 You can also upload your own text file in the sidebar to add custom knowledge to the RAG system.
 
+## 📸 Screenshots
+
+Here are some glimpses of the chatbot in action:
+
+### Main Chat Interface
+![Main Chatbot Interface](images/calc.png)
+_A general view of the chatbot's main conversation window._
+
+### Calculator Tool
+![Calculator Tool in action, showing result of 10 + 5 * 2](images/calc.png)
+_Performing a mathematical calculation._
+
+### RAG Query Example
+![RAG system answering a question about Inception](images/rag(laufey).png)
+_Demonstrating retrieval augmented generation from the movie knowledge base._
 ### 📁 Project Folder Structure
 
 **`main.py`**  
