@@ -105,17 +105,38 @@ Once the app is running, try asking:
 
 You can also upload your own text file in the sidebar to add custom knowledge to the RAG system.
 
-## ⚙️ Project Structure
+### 📁 Project Folder Structure
 
-chatbot_project/
-├── main.py # Main Streamlit application logic
-├── tools.py # Defines the external tools (calculator, currency, weather) and their schemas
-├── rag_system.py # Implements the RAG pipeline (chunking, embedding, FAISS search)
-├── documents/ # Contains the default RAG knowledge base text file
-│ └── your_knowledge_base.txt
-├── .env # Stores API keys (ignored by Git for security)
-├── .gitignore # Specifies files/directories to exclude from Git
-└── requirements.txt # Lists Python package dependencies
+**`main.py`**  
+The main file that runs the chatbot using Streamlit.
+
+**`tools.py`**  
+Contains the logic for external tools:
+- Calculator
+- Currency converter
+- Weather fetcher
+
+**`rag_system.py`**  
+Handles the RAG (Retrieval-Augmented Generation) pipeline:
+- Splits documents into chunks
+- Creates embeddings
+- Searches using FAISS for relevant content
+
+**`documents/`**  
+A folder that stores your knowledge base files.  
+Includes:  
+- `your_knowledge_base.txt` → A text file used for answering questions.
+
+**`.env`**  
+Stores API keys (like weather or currency APIs).  
+This file is ignored by Git for security.
+
+**`.gitignore`**  
+Specifies files and folders that Git should ignore (e.g., `.env`).
+
+**`requirements.txt`**  
+Lists all the Python packages required to run the project.
+
 
 ## ☁️ Deployment on Streamlit Community Cloud
 
